@@ -1,0 +1,21 @@
+path:hover  {
+    fill: darkgreen;
+}
+
+path{
+    fill:green;
+}
+
+.lSelected:hover   {
+    fill: #ffcc00;
+}
+
+.lHover  {
+    fill: darkgreen;
+}
+
+.lSelected  {
+    fill: #ffcc00;
+}
+
+

@@ -1,0 +1,123 @@
+#birddetailsoverlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    display: none;
+
+    animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s; /* Firefox */
+    -webkit-animation: fadein 0.5s; /* Safari and Chrome */
+    -o-animation: fadein 0.5s; /* Opera */
+}
+#birdDetailscontainer{
+    max-height: 80vh;
+    width: 80vw;
+    left: 10vw;
+    position: fixed;
+    z-index: 6;
+    top: 10vh;
+    display: none;
+    border-radius: 5px;
+    background:white;
+
+    animation: fadein 0.8s;
+    -moz-animation: fadein 0.8s; /* Firefox */
+    -webkit-animation: fadein 0.8s; /* Safari and Chrome */
+    -o-animation: fadein 0.8s; /* Opera */
+}
+
+.birdDetailscontainer .bdheader{
+    padding: 20px;
+    color: #000;
+    border-bottom: 1px solid #5cb85c;
+}
+
+.birdDetailscontainer .bdclose {
+    position: relative;
+    top: -5px;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;   
+    color: #000;
+}
+.birdDetailscontainer .bdclose:hover, .birddetailsoverlay .birdDetailscontainer .bdclose:focus {
+    color: #5cb85c;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.birdDetailscontainer .modal-body {
+    padding: 30px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #5cb85c;
+    transition: 0.5s;
+    max-height: 60vh;
+    
+}
+
+.birdDetailscontainer .modal-body .details{
+    position: relative;
+    float: left;
+    width: 30%;
+    min-width: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.birdDetailscontainer .bdfooter {
+    padding: 20px;
+    color: #000;
+    height: 50px;
+    font-size: 12px;
+}
+
+.birddetailsoverlay img{
+    width : 100px;
+    height : 100px;
+    position:relative;
+    top: 45vh;
+}
+
+.birddetailsoverlay:hover{
+    display: none;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

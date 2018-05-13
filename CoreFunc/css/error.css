@@ -1,0 +1,77 @@
+#msgoverlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.1);
+    overflow-x: hidden;
+    display: block;
+
+    animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s; /* Firefox */
+    -webkit-animation: fadein 0.5s; /* Safari and Chrome */
+    -o-animation: fadein 0.5s; /* Opera */
+}
+
+.notify {
+    display: block;
+    background: #fff;
+    padding: 165px 18px;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.notify h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2.5em;
+    color: #444;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+.notify h1:before,
+.notify h1:after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: #f0f0f0;
+}
+.notify h1:before {    
+    left: -.5em;
+    margin: 0 0 0 -50%;
+}
+.notify h1:after {    
+    left: .5em;
+    margin: 0 -50% 0 0;
+}
+.notify h1 > span {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.notify p {
+    display: block;
+    font-size: 1.35em;
+    line-height: 1.5em;
+    text-align: center;
+    color: whitesmoke;
+    border-top: 2px solid whitesmoke;
+    padding-top: 10px;
+}

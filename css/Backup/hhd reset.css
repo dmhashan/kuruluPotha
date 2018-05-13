@@ -1,0 +1,48 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.hhdmenu html, .hhdmenu body, .hhdmenu div, .hhdmenu span, .hhdmenu applet, .hhdmenu object, .hhdmenu iframe,
+.hhdmenu h1, .hhdmenu h2, .hhdmenu h3, .hhdmenu h4, .hhdmenu h5, .hhdmenu h6, .hhdmenu p, .hhdmenu blockquote, .hhdmenu pre,
+.hhdmenu a, .hhdmenu abbr, .hhdmenu acronym, .hhdmenu address, .hhdmenu big, .hhdmenu cite, .hhdmenu code,
+.hhdmenu del, .hhdmenu dfn, .hhdmenu em, .hhdmenu img, .hhdmenu ins, .hhdmenu kbd, .hhdmenu q, .hhdmenu s, .hhdmenu samp,
+.hhdmenu small, .hhdmenu strike, .hhdmenu strong, .hhdmenu sub, .hhdmenu sup, .hhdmenu tt, .hhdmenu var,
+.hhdmenu b, .hhdmenu u, .hhdmenu i, .hhdmenu center,
+.hhdmenu dl, .hhdmenu dt, .hhdmenu dd, .hhdmenu ol, .hhdmenu ul, .hhdmenu li,
+.hhdmenu fieldset, .hhdmenu form, .hhdmenu label, .hhdmenu legend,
+.hhdmenu table, .hhdmenu caption, .hhdmenu tbody, .hhdmenu tfoot, .hhdmenu thead, .hhdmenu tr, .hhdmenu th, .hhdmenu td,
+.hhdmenu article, .hhdmenu aside, .hhdmenu canvas, .hhdmenu details, .hhdmenu embed, 
+.hhdmenu figure, .hhdmenu figcaption, .hhdmenu footer, .hhdmenu header, .hhdmenu hgroup, 
+.hhdmenu menu, .hhdmenu nav, .hhdmenu output, .hhdmenu ruby, .hhdmenu section, .hhdmenu summary,
+.hhdmenu time, .hhdmenu mark, .hhdmenu audio, .hhdmenu video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.hhdmenu article, .hhdmenu aside, .hhdmenu details, .hhdmenu figcaption, .hhdmenu figure, 
+.hhdmenu footer, .hhdmenu header, .hhdmenu hgroup, .hhdmenu menu, .hhdmenu nav, .hhdmenu section, main {
+	display: block;
+}
+.hhdmenu body {
+	line-height: 1;
+}
+.hhdmenu ol, .hhdmenu ul {
+	list-style: none;
+}
+.hhdmenu blockquote, q {
+	quotes: none;
+}
+.hhdmenu blockquote:before, .hhdmenu blockquote:after,
+.hhdmenu q:before, .hhdmenu q:after {
+	content: '';
+	content: none;
+}
+.hhdmenu table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
